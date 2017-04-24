@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Alex's Blog
 subtitle:
 description:
-author: John Doe
+author: Alex Chao
 language:
 timezone:
 
@@ -63,7 +63,25 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Daily
+
+# Customize Theme
+widget:
+  title: THIS SITE
+  content: <p>This is a blog focusing on design, development and more amazing things.</p>
+# favicon:
+# logo:
+
+nav:
+  Home: .
+  Archive: archives
+  # About: about
+
+social:
+  github: https://github.com/zhaomy6
+  # weibo: http://weibo.com/10010800
+  # twitter: https://twitter.com/GallenHu
+  mail: mingyusysu@gmail.com
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
