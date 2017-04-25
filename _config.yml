@@ -75,13 +75,13 @@ widget:
 nav:
   Home: .
   Archive: archives
-  # About: about
+  About: about
 
 social:
   github: https://github.com/zhaomy6
   # weibo: http://weibo.com/10010800
   # twitter: https://twitter.com/GallenHu
-  mail: mingyusysu@gmail.com
+  mail: mailto:mingyusysu@gmail.com
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
