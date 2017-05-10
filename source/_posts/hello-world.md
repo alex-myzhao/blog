@@ -1,6 +1,5 @@
 ---
 title: Hello World
-
 photos:
  - images/hello-hexo.png
 ---
