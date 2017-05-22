@@ -1,5 +1,5 @@
 ---
-title: OpenMP 01
+title: OpenMP Learning
 tags:
   - openmp
   - hpc

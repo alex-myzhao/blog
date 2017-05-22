@@ -1,18 +1,18 @@
-# OpenMP 学习报告 01
-
-> 2017-05-13
-> 14331382 赵明宇
-
-[TOC]
+---
+title: OpenMP Learning (More)
+tags:
+  - openmp
+  - hpc
+photos:
+  - images/openmp/parallel-region.png
+date: 2017-05-12
+---
 
 ## 0 实验环境
 
 - 操作系统：macOS 10.12.4
 - 编译器：GNU GCC 7.1
 - OpenMP：201511
-
-
-
 
 
 ## 1 基本概念
@@ -72,8 +72,6 @@ MPI 是通过消息传递方式实现并行的一套接口，不同于OpenMP主�
 
 
 ## 2 基本使用
-
-本文中的所有例子均已上传到Github仓库中。# TODO
 
 ### 2.1 环境配置
 
@@ -228,12 +226,12 @@ hello openmp: 9
   {
     //  thread 0
   }
-  
+
   #pragma omp section
   {
     //  thread 1
   }
-  
+
   ...
 }
 ```
@@ -399,19 +397,19 @@ int x = 2;
 
 **Static**：每个进程被赋予固定尺寸的块
 
-![](static-schedule.png)
+![](http://oowu6eof3.bkt.clouddn.com/static-schedule.png)
 
 
 
 **Dynamic**: 按照线程需求分配块的大小
 
-![](dynamic-schedule.png)
+![](http://oowu6eof3.bkt.clouddn.com/static-schedule.png)
 
 
 
 **Guided**: 先分配较大的块，然后逐渐分配越来越小的块
 
-![](guided-schedule.png)
+![](http://oowu6eof3.bkt.clouddn.com/guided-schedule.png)
 
 
 
