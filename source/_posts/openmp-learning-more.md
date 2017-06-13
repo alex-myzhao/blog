@@ -3,10 +3,11 @@ title: OpenMP Learning (More)
 tags:
   - openmp
   - hpc
-photos:
-  - images/openmp/parallel-region.png
 date: 2017-05-12
+description: 在上一篇教程基础上完善的中文版 OpenMP 入门教程。
 ---
+
+这是在上一篇教程基础上完善的中文版 OpenMP 入门教程。
 
 ## 0 实验环境
 
