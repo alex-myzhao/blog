@@ -2,10 +2,12 @@
 title: Test Your Vue.js Project
 date: 2017-06-13 20:25:40
 tags:
+  - vue
+photos: images/vuejs-title.png
 ---
 
-
 覆盖率高的测试可以在很大程度上提高软件产品的可靠性，这学期学习了软件测试课程之后更是深有体会。本文介绍针对 Vue 框架进行单元测试和端到端测试的方法，以及通过 Travis CI 自动化这一过程从而进行持续集成。
+<!--more-->
 关于 [Vue.js](http://cn.vuejs.org/v2/guide/)，是一套构建用户界面的渐进式框架。类似 Angular.js，Vue.js 通过 MVVM 设计将界面、数据和操作逻辑解耦，易于上手并且方便使用，再加上其官方提供的多语言支持详尽文档和循序渐进的教程，在这一年的时间里非常热门。本文默认读者已经对这个框架有了相当程度对了解，如果正在寻找入门教程，强烈推荐按照顺序阅读[官方文档](http://cn.vuejs.org/v2/guide/)。
 使用 vue-cli 生成带有单元测试模版的项目：
 

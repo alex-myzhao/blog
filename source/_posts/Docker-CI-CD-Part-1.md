@@ -4,11 +4,12 @@ tags:
   - docker
   - jenkins
 date: 2017-06-13 15:01:37
+photos: images/docker-title.png
 ---
 
-## Docker 基础知识
+什么是 Docker 和容器？Docker 使用 Google 公司推出的 Go 语言进行开发实现，基于 Linux 内核的 cgroup，namespace，以及 AUFS 类的 Union FS 等技术，对进程进行封装隔离，属于**操作系统层面**的虚拟化技术。由于隔离的进程独立于宿主和其它的隔离的进程，因此也被称为容器。
 
-Docker 使用 Google 公司推出的 Go 语言 进行开发实现，基于 Linux 内核的 cgroup，namespace，以及 AUFS 类的 Union FS 等技术，对进程进行封装隔离，属于**操作系统层面**的虚拟化技术。由于隔离的进程独立于宿主和其它的隔离的进程，因此也被称为容器。
+<!--more-->
 
 ### 容器和虚拟机
 

@@ -2,11 +2,13 @@
 title: 'Git/Github, a Further Step'
 tags:
   - git
-photos: images/git-github/github.png
-date: 2017-06-13 15:02:25
+photos: images/git-github/github-social-coding.jpg
+date: 2017-06-12 15:02:25
 ---
 
 Github 除了可以用作 git 的远程仓库，还可以很方便地进行项目管理。本博客以一个项目开发的前期流程作为 demo，介绍 GitHub 在这方面的使用方法。
+
+<!--more-->
 
 ## Organization
 

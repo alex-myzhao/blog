@@ -4,11 +4,13 @@ tags:
   - openmp
   - hpc
 photos:
- - images/openmp/parallel-region.png
+ - images/runners-635906_1920.jpg
 date: 2017-05-10 20:32:31
 ---
 
 When I start to learn HPC, I set out from OpenMP. In this series of articles, I **collect and summarize** a batch of useful tutorials about OpenMP (C/C++) for newcomers.
+
+<!--more-->
 
 ## 1. Overview
 
